@@ -1,0 +1,95 @@
+.contentContainer {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  max-width: 90vw;
+  height: 80vh;
+  overflow: hidden;
+  border-style: solid;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+  font-family: "Open Sans", sans-serif;
+}
+.titleText {
+  font-size: 38px;
+}
+
+@media screen and (min-width: 600px) {
+  .contentContainer {
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    max-width: 90vw;
+    height: 80vh;
+    overflow: hidden;
+    border-style: solid;
+  }
+  .image {
+    height: 100%;
+    z-index: 10;
+    position: relative;
+  }
+
+  .infoContainer {
+    padding: 15px 15px 15px 25px;
+    background: white;
+    position: static;
+    z-index: 15;
+  }
+
+  .infoLogo {
+    max-width: 75%;
+    display: flex;
+    margin: auto;
+  }
+
+  .imageContainer {
+    max-height: 80vh;
+  }
+  .titleText {
+    font-size: 38px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contentContainer {
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 100%;
+    max-width: 90vw;
+    height: fit-content;
+    overflow: hidden;
+    border-style: solid;
+  }
+  .titleText {
+    font-size: 28px;
+  }
+  .image {
+    display: none;
+  }
+  .infoContainer {
+    padding: 15px 15px 15px 25px;
+    background: white;
+    position: static;
+    z-index: 15;
+  }
+
+  .infoLogo {
+    max-width: 75%;
+    display: flex;
+    margin: auto;
+  }
+}
+
+.smIcon__link {
+  color: black;
+}
+
+.smIcon__icon {
+  height: 2rem;
+  width: 2rem;
+}
