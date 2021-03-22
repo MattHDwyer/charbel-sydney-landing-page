@@ -10,7 +10,7 @@ const NewsletterSignUp = () => {
 		<>
 			<ReactMailchimpEmailSignupForm
 				elementId="first-email-signup-form"
-				url="https://towersystems.us1.list-manage.com/subscribe/post?u=81826d6f8acb4e1206472b8b0&amp;id=f24b2a275a"
+				url="https://charbelsydney.us1.list-manage.com/subscribe/post?u=c60c8976ab0c8469e102846ab&amp;id=3fa791326a"
 				title="Subscribe to be notified!"
 				subtitle="We take privacy seriously and we'll never spam or sell your information."
 			/>

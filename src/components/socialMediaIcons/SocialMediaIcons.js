@@ -5,7 +5,7 @@ import { IconContext } from 'react-icons';
 const SocialMediaIcons = () => {
 	return (
 		<div>
-			<h4>Check out our Socials:</h4>
+			<h4>Follow us on Instagram:</h4>
 			<a className="smIcon__link" href="https://instagram.com/charbelsydney">
 				<IconContext.Provider value={{ className: 'smIcon__icon' }}>
 					<FiInstagram />
