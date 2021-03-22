@@ -7,7 +7,7 @@ function App() {
 		<div className="App">
 			<div className="contentContainer">
 				<div className="imageContainer">
-					<img alt="informationImage" className="image" src="https://imgur.com/DI1zqQl.jpg" />
+					<img alt="infoImage" className="image" src="https://imgur.com/w6VmLCw.jpg" />
 				</div>
 				<div className="infoContainer">
 					<img alt="shoplogo" className="infoLogo" src="https://i.imgur.com/PbbPTAR.jpg" />
