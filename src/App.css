@@ -18,18 +18,19 @@
     border-style: solid;
     height: 100%;
   }
-  .image {
-    height: 100%;
-    width: auto;
-    max-width: 100%;
-    position: relative;
-  }
 
   .infoContainer {
     padding: 15px 15px 15px 25px;
     background: white;
     position: static;
     z-index: 15;
+    text-align: center;
+  }
+  .image {
+    height: 100%;
+    width: auto;
+    max-width: 766px;
+    position: relative;
   }
 
   .infoLogo {
@@ -74,6 +75,7 @@
     background: white;
     position: static;
     z-index: 15;
+    text-align: center;
   }
 
   .infoLogo {
@@ -86,8 +88,10 @@
     height: auto;
   }
   .imageMobile {
-    max-width: 100%;
+    width: 100%;
+    max-width: 400px;
     height: auto;
+    margin-top: 16px;
   }
 }
 

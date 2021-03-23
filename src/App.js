@@ -11,10 +11,9 @@ function App() {
 				</div>
 				<div className="infoContainer">
 					<img alt="Charbel Sydney Logo" className="infoLogo" src="https://i.imgur.com/PbbPTAR.jpg" />
-					<h2 className="titleText">COMING SOON.....</h2>
-					<p>We are currently working on creating something exciting! We will be here soon.</p>
-					<p>We look forward to collaborating!</p>
 					<img alt="jewellery display" className="imageMobile" src="https://imgur.com/w6VmLCw.jpg" />
+					<h2 className="titleText">COMING SOON....</h2>
+					<p>We are currently working on creating something exciting! We will be here soon.<br />We look forward to collaborating!</p>
 					<p>
 						To book an appointment, please contact us:<br />
 						<br />
