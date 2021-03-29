@@ -12,7 +12,7 @@
   .contentContainer {
     margin: 15px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 766px auto;
     max-width: 90vw;
     overflow: hidden;
     border-style: solid;
@@ -28,7 +28,7 @@
   }
   .image {
     height: 100%;
-    width: 766px;
+    width: 100%;
     max-width: 766px;
     position: relative;
   }
@@ -44,7 +44,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 45vw;
+    max-width: 766px;
   }
   .titleText {
     font-size: 38px;
